@@ -1,6 +1,31 @@
 h1 {
-  color: red:
+  color: black;
+  font-family: american typewriter;
+}
+h2 {
+  color: red;
+  font-family: american typewriter;
+}
+h3 {
+  color: black;
+  font-family: american typewriter;
 }
 p {
-  color: blue:
+  color: black;
+  font-size: 22px;
+  letter-spacing: .5px;
+  margin-top: 0;
+  font-family: american typewriter;
+}
+a {
+  text-decoration: none; /* this gets rid of the default underline */
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: pink;
 }
