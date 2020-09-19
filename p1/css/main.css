@@ -3,7 +3,7 @@ h1 {
   font-family: american typewriter;
 }
 h2 {
-  color: red;
+  color: black;
   font-family: american typewriter;
 }
 h3 {
@@ -28,4 +28,8 @@ a:visited {
 }
 a:hover {
   color: pink;
+}
+body {
+  margin: 50px;
+  text-align: center;
 }
