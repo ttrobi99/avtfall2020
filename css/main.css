@@ -11,7 +11,7 @@ li {
 a {
   text-decoration: none; /* this gets rid of the default underline */
 }
-a:visited{
+a:visited {
   color: plum;
 }
 a:hover {
@@ -19,6 +19,9 @@ a:hover {
 }
 a:link {
   color: rebeccapurple;
+}
+a:active {
+  color: lightsteelblue;
 }
 body{
   background-color: seashell;
