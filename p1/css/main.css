@@ -1,14 +1,20 @@
 h1 {
   color: black;
-  font-family: american typewriter;
+  font-family: itc-american-typewriter, serif;
+  font-weight: 700;
+  font-style: normal;
 }
 h2 {
   color: black;
-  font-family: american typewriter;
+  font-family: itc-american-typewriter, serif;
+  font-weight: 300;
+  font-style: normal;
 }
 h3 {
   color: black;
-  font-family: american typewriter;
+  font-family: itc-american-typewriter, serif;
+  font-weight: 300;
+  font-style: normal;
 }
 p {
   color: black;
@@ -21,15 +27,16 @@ a {
   text-decoration: none; /* this gets rid of the default underline */
 }
 a:link {
-  color: red;
+  color: darkred;
 }
 a:visited {
-  color: red;
+  color: crimson;
 }
 a:hover {
-  color: pink;
+  color: lightcoral;
 }
 body {
   margin: 50px;
   text-align: center;
+  background-color: papayawhip;
 }

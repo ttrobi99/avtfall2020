@@ -1,0 +1,27 @@
+h1 {
+  color: darkmagenta;
+  font-family: lust, serif;
+}
+li {
+  font-family: hero-new, sans-serif;
+  color: orchid;
+  text-align: center;
+  list-style-position: inside;
+}
+a {
+  text-decoration: none; /* this gets rid of the default underline */
+}
+a:visited{
+  color: plum;
+}
+a:hover {
+  color: lightsteelblue;
+}
+a:link {
+  color: rebeccapurple;
+}
+body{
+  background-color: seashell;
+  margin: 50px;
+  text-align: center;
+}
