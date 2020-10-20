@@ -1,12 +1,30 @@
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  float: left;
+}
 h1 {
   color: darkmagenta;
   font-family: lust, serif;
+  font-size: 4rem;
+}
+h2 {
+  color: darkmagenta;
+  font-family: lust, serif;
+  font-size: 2rem;
 }
 li {
   font-family: hero-new, sans-serif;
   color: orchid;
-  text-align: center;
-  list-style-position: inside;
+  text-align: left;
   font-size: 2rem;
   margin-bottom: 10px;
 }
@@ -35,4 +53,19 @@ html {
 }
 img {
   max-width: 100%;
+}
+@media screen and (max-width: 718px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
 }

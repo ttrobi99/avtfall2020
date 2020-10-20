@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+width: 125vw;
+  margin: -100px -12.5vw;
+}
+.shape1 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  border-radius: 100%;
+  float: left;
+  margin: -1px;
+}
+.shape2, .shape4, .shape6 {
+  width: 50px;
+  height: 50px;
+  margin: 50px;
+  float: left;
+  border-radius: 50px;
+  background-color: crimson;
+}
+.shape3 {
+  width: 100px;
+  height: 100px;
+  margin: -50px;
+  float: left;
+  border-radius: 100%;
+  background-color: cadetblue;
+}
+.shape4 {
+  background-color: darkred;
+}
+.shape5, .shape7 {
+  background-color: darksalmon;
+  opacity: .5;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: left;
+  margin: -50px;
+}
+.shape6 {
+  background-color: indianred;
+}
+.shape7 {
+  background-color: lightblue;
+}
