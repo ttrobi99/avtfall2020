@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.board {
+  width: 800px;
+  padding: 50px;
+  display: flow-root;
+}
+.red, .black {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.red {
+  background-color: red;
+}
+.black {
+  background-color: black;
+}
