@@ -5,9 +5,13 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
-main {
+.shape1,  {
 width: 120vw;
 margin: -100px -12.5vw;
+}
+.shape5, .shape6, .shape7, .shape8, .shape9, .shape10, .shape11, .shape12, .shape13, .shape14, .shape15 {
+  width: 125vw;
+  margin: -100px -12.5vw;
 }
 .shape1 {
   width: 100px;
@@ -36,5 +40,134 @@ margin: -100px -12.5vw;
   height: 100px;
   border: 10px solid black;
   margin: -50px 150px;
+  float: left;
+}
+.shape5 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 100%;
+  float: left;
+  margin: 50px;
+}
+.shape6 {
+  width: 50px;
+  height: 200px;
+  margin: 50px;
+  float: left;
+  background-color: aquamarine;
+}
+.shape7 {
+  width: 100px;
+  height: 100px;
+  margin: -50px;
+  float: left;
+  background-color: cornflowerblue
+}
+.shape8 {
+  width: 300px;
+  height: 300px;
+  border: 10px solid darkcyan;
+  margin: -50px
+  overflow: hidden;
+  float: left;
+}
+.shape9 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  border-radius: 100%;
+  float: left;
+  margin: -1px;
+}
+.shape10, .shape12, .shape14 {
+  width: 50px;
+  height: 50px;
+  margin: 50px;
+  float: left;
+  border-radius: 50px;
+  background-color: crimson;
+}
+.shape11 {
+  width: 100px;
+  height: 100px;
+  margin: -50px;
+  float: left;
+  border-radius: 100%;
+  background-color: cadetblue;
+}
+.shape12 {
+  background-color: darkred;
+}
+.shape13, .shape15 {
+  background-color: darksalmon;
+  opacity: .5;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: left;
+  margin: -50px;
+}
+.shape14 {
+  background-color: indianred;
+}
+.shape15 {
+  background-color: lightblue;
+}
+.shape16 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid indigo;
+  border-bottom: 50px solid transparent;
+  float: left;
+}
+.shape17 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid honeydew;
+  border-bottom: 50px solid transparent;
+  float: left;
+}
+.shape18 {
+  width: 100px;
+  height: 80px;
+  background: lavender;
+  border: 10px solid mediumpurple;
+  float: left;
+  opacity: .5;
+  overflow: hidden;
+  margin: -50px;
+}
+.shape19 {
+  width: 100px;
+  height: 100px;
+  border: 10px solid lightgray;
+  border-radius: 50%;
+  float: left;
+}
+.shape20 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: pink;
+  opacity: .5;
+  float: left;
+}
+.shape21 {
+  width: 150px;
+  height: 100px;
+  transform: skew(20deg);
+  background-color: palevioletred;
+  margin: -50px;
+  overflow: hidden;
+  float: left;
+}
+.shape22 {
+  width: 100px;
+  height: 100px;
+  border: 10px solid rosybrown;
+  overflow: hidden;
   float: left;
 }
