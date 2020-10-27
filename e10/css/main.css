@@ -23,3 +23,73 @@ body {
 .blue {
   background-color: midnightblue;
 }
+.teal1 {
+  background-color: teal;
+  width: 220px;
+  height: 540px;
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.header {
+  background-color: teal;
+  width: 685px;
+  height: 90px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.teal3 {
+  background-color: teal;
+  width: 685px;
+  height: 15px;
+  margin-bottom: 12px;
+}
+.footer {
+  background-color: teal;
+  left: 0;
+  bottom: 0;
+  width: 685px;
+  height: 90px;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+.header {
+  background-color: thistle;
+  width: 720px;
+  height: 140px;
+  margin-bottom: 100px;
+}
+.thistle2 {
+  background-color: thistle;
+  width: 570px;
+  height: 440px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.thistle3 {
+  background-color: thistle;
+  width: 140px;
+  height: 190px;
+  float: left;
+  margin-bottom: 15px;
+}
+.thistle4 {
+  background-color: thistle;
+  width: 570px;
+  height: 50px;
+  margin-bottom: 100px;
+  float: left;
+}
+.footer {
+  background-color: thistle;
+  width: 570px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  float: left;
+  left: 0;
+  bottom: 0;
+
+}
