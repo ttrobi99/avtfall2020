@@ -1,0 +1,88 @@
+@media screen and (min-width: 768px) {
+/* styles for screen sizes 768px and above */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #29B7A5;
+}
+li {
+  margin-right: 30px;
+  text-align: center;
+  float: right;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+h2 {
+  text-align: center;
+  font-family: monotalic, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 0;
+  margin-left: 50%;
+  margin-right: 50%
+}
+.underline, .overline {
+  background-color: #C1F1EA;
+  height: 2px;
+  margin-bottom: 10px;
+}
+.overline {
+  margin-top: 10px;
+}
+h1 {
+  text-align: center;
+  font-family: monotalic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #C1F1EA;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+p {
+font-family: brandon-grotesque, sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: left;
+}
+.footer {
+  background-color: #C1F1EA;
+  width: 768px;
+  height: 50px;
+  text-align: left;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.socials {
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  background-color: #C1F1EA;
+  float: right;
+}
