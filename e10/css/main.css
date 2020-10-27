@@ -31,7 +31,7 @@ body {
   margin-right: 12px;
   margin-bottom: 12px;
 }
-.header {
+.header1 {
   background-color: teal;
   width: 685px;
   height: 90px;
@@ -44,7 +44,7 @@ body {
   height: 15px;
   margin-bottom: 12px;
 }
-.footer {
+.footer1 {
   background-color: teal;
   left: 0;
   bottom: 0;
