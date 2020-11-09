@@ -112,11 +112,16 @@ margin-left: 10px;
 .banner {
   max-width: 768px;
 }
-.logo {
+.footerlogo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+}
+.headerlogo {
+  width: 50%;
+  margin-left: 30%;
+  margin-right: 50%;
 }
 .socials {
   margin-left: 300px;
@@ -156,4 +161,9 @@ a:hover {
 }
 a {
   text-decoration: none; /* this gets rid of the default underline */
+}
+.images {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 50%;
 }
