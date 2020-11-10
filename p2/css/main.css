@@ -1,12 +1,26 @@
-@media screen and (min-width: 768px) {
-/* styles for screen sizes 768px and above */
+@media screen and (min-width: 450px) {
+.banner {
+  width: 100%;
+ }
+ .header {
+   width: 100%;
+ }
+ h1 {
+   text-align: center;
+ }
+ .footer {
+   width: 100%;
+ }
+ .socials {
+   width: 5%;
+ }
 }
 * {
   box-sizing: border-box;
 }
 body {
   background-color: #29B7A5;
-  max-width: 768px;
+  /* max-width: 768px; */
 }
 li {
   margin-right: 30px;
@@ -74,7 +88,7 @@ h1 {
   margin-top: 0px;
   margin-left: 0;
   margin-right: 0;
-  max-width: 768px;
+  /* max-width: 768px; */
   height: 100px;
   margin-bottom: 0;
   z-index: 10;
@@ -85,20 +99,21 @@ font-weight: 400;
 font-style: normal;
 text-align: left;
 color: black;
-margin-left: 10px;
+margin-left: 20px;
 }
 .footer {
   background-color: #C1F1EA;
-  width: 768px;
-  height: 50px;
-  text-align: center;
-  position: relative;
-  left: 0;
-  bottom: 0;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  /* min-width: 600px; */
+  height: 200px;
+  text-align: left;
+  /* position: relative; */
+  /* left: 0; */
+  /* bottom: 0; */
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  z-index: -10;
 }
 
 .center, .banner {
@@ -110,34 +125,42 @@ margin-left: 10px;
   width: 50%;
 }
 .banner {
-  max-width: 768px;
+  min-width: 600px;
+  margin-left: 0;
 }
 .footerlogo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 20%;
 }
 .headerlogo {
-  width: 50%;
-  margin-left: 30%;
-  margin-right: 50%;
+  width: 20%;
+  margin-left: 43%;
+  margin-right: 45%;
+}
+@media only screen and (max-width: 450px) {
+  .headerlogo {
+    width: 40%;
+    margin-left: 35%;
+  }
 }
 .socials {
-  margin-left: 300px;
-  max-width: 25%;
+  margin-left: 100px;
+  /* max-width: 25%; */
   background-color: #C1F1EA;
   float: left;
   position: relative;
-  top: -250px;
+  /* top: -250px; */
 }
-.header {
+.header, .footer {
   background-color: #C1F1EA;
-  max-width: 768px;
+  /* max-width: 768px; */
   hight: 100px;
   position: relative;
   z-index: -10;
   top: 0;
+  /* min-width: 600px; */
 }
 .nav {
   margin-right: 50px;
@@ -146,9 +169,23 @@ margin-left: 10px;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 80px;
+  /* z-index: -10; */
+}
+@media only screen and (min-width: 1440px) {
+  .nav {
+    margin-right:50%;
+    margin-top: 60px;
+  }
+  li {
+    margin-left: 5%;
+    margin-right: 15%;
+  }
+  h2 {
+    margin-left: 25%;
+  }
 }
 a:link {
   color: black;
