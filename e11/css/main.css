@@ -1,0 +1,157 @@
+body {
+  background-color:darkblue
+}
+#grad1 {
+  height: 800px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, darkblue , blueviolet);
+  z-index: -10;
+}
+.moon {
+  background-color: cornsilk;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  margin-top: -600px;
+  margin-left: 550px;
+}
+.grass {
+  background-color: darkolivegreen;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: -200px;
+  z-index: -10;
+}
+.leaves {
+  background-color: olive;
+  height: 40px;
+  width: 25px;
+  border-radius: 50%;
+  margin-top: -110px;
+}
+.pumpkin1 {
+  background-color: orange;
+  height: 100px;
+  width: 130px;
+  border-radius: 50%;
+  margin-top: -100px;
+  z-index: -10;
+}
+.pumpkin2 {
+  background-color: orange;
+  height: 240px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 1000px;
+  margin-top: -250px;
+  z-index: -10;
+}
+.pumpkin3 {
+  background-color: peru;
+  height: 90px;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: -350px;
+}
+.pumpkin4 {
+  background-color: sandybrown;
+  height: 60px;
+  width: 70px;
+  border-radius: 50%;
+  margin-top: -10px;
+  margin-left: 400px;
+}
+.pumpkin5 {
+  background-color: peru;
+  height: 130px;
+  width: 180px;
+  border-radius: 50%;
+  margin-left: 1090px;
+  margin-top: -400px;
+}
+.pumpkin6, .pumpkin7, .pumpkin8 {
+  background-color: orange;
+  height: 60px;
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+.pumpkin7 {
+  margin-left: 180px;
+  height: 70px;
+  width: 80px;
+}
+.pumpkin8 {
+  margin-left: 500px;
+  margin-top: -40px;
+}
+.body {
+  background-color: black;
+  height: 270px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 800px;
+  margin-top: -100px;
+}
+.base {
+  background-color: orange;
+  height: 120px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 350px;
+  margin-left: 790px;
+}
+.neck1 {
+  background-color: black;
+  height: 45px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 845px;
+  margin-top: -300px;
+}
+.neck2 {
+  background-color: black;
+  height: 50px;
+  width: 35px;
+  margin-left: 855px;
+  margin-top: -70px;
+}
+.head {
+  background-color: black;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin-left: 820px;
+  margin-top: -170px;
+}
+.mouth {
+  background-color: black;
+  height: 75px;
+  width: 110px;
+  border-radius: 50px;
+  margin-left: 780px;
+  margin-top: -90px;
+  transform: rotate(-20deg);
+}
+.nose {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 770px;
+  margin-top: -40px;
+}
+.goggles1, .goggles2 {
+  background-color: black;
+  height: 40px;
+  width: 50px;
+  margin-left: 830px;
+  margin-top: -110px;
+  transform: rotate(-20deg);
+}
+.goggles2 {
+  transform: rotate(20deg);
+  margin-left: 880px;
+  margin-top: -45px;
+}
