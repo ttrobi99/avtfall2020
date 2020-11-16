@@ -8,27 +8,41 @@ img {
   width: 100%;
 }
 header {
-  background-color: pink;
+  background-color: #C1F1EA;
   padding: 50px;
   display: flow-root;
 }
 main {
-  background-color: cornflowerblue;
+  background-color: #29B7A5;
+  margin-bottom: 0;
 }
 footer {
-  background-color: mediumpurple;
+  background-color: #29B7A5;
 }
 nav {
-  float: right;
+  position: relative;
+  left: 40%;
+  bottom: 20px;
+  top: 20px;
+}
+.logo {
+  width: 15%;
+  position: relative;
+  left: 45%;
 }
 .title {
-  float: left;
+  position: relative;
+  left: 45%;
+  width: 15%;
 }
 .title p {
   margin: 0;
+  font-family: monotalic, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .hero {
-  background: url(../images/picture3.png) no-repeat center center;
+  background: url(../images/picture14.jpg) no-repeat center center;
   background-size: cover;
   padding: 300px 0;
 }
@@ -37,7 +51,10 @@ h1 {
   text-align: center;
 }
 p {
-  margin: 0;
+  margin-top: 20px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 ul {
   margin: 1.2rem 0 0;
@@ -47,7 +64,20 @@ ul {
 li {
   float: left;
   margin: 0 0 0 25px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 p.subhead {
   text-align: center;
+}
+.section {
+  margin-top: 90px;
+  margin-left: 10px;
+}
+.socials {
+  width: 5%;
+  position: relative;
+  left: 45%;
+
 }
