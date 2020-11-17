@@ -15,9 +15,11 @@ header {
 main {
   background-color: #29B7A5;
   margin-bottom: 0;
+  padding-top: 1px;
 }
 footer {
-  background-color: #29B7A5;
+  background-color: #C1F1EA;
+  padding-top: 50px;
 }
 nav {
   position: relative;
@@ -26,25 +28,52 @@ nav {
   top: 20px;
 }
 .logo {
-  width: 15%;
+  width: 10%;
   position: relative;
   left: 45%;
 }
 .title {
   position: relative;
   left: 45%;
-  width: 15%;
+  width: 10%;
 }
 .title p {
   margin: 0;
   font-family: monotalic, sans-serif;
   font-weight: 700;
   font-style: normal;
+  font-size: 20pt;
 }
 .hero {
   background: url(../images/picture14.jpg) no-repeat center center;
   background-size: cover;
   padding: 300px 0;
+  font-family: monotalic, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15pt;
+}
+.hero2 {
+  background-size: cover;
+  padding: 200px 0;
+  font-family: monotalic, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15pt;
+}
+.overline, .underline, .overline2, .underline2 {
+  background-color: #C1F1EA;
+  height: 2px;
+}
+.overline {
+  margin-bottom: 30px;
+  margin-top: -50px;
+}
+.underline {
+  margin-top: 30px;
+}
+.overline2 {
+  margin-top: 10px;
 }
 h1 {
   margin: 0;
@@ -55,6 +84,7 @@ p {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 16pt;
 }
 ul {
   margin: 1.2rem 0 0;
@@ -68,6 +98,18 @@ li {
   font-weight: 400;
   font-style: normal;
 }
+a {
+  text-decoration: none; /* this gets rid of the default underline */
+}
+a:link {
+  color: black;
+}
+a:active {
+  color: black;
+}
+a:hover {
+  color: darkmagenta;
+}
 p.subhead {
   text-align: center;
 }
@@ -79,5 +121,26 @@ p.subhead {
   width: 5%;
   position: relative;
   left: 45%;
-
+}
+@media screen and (max-width: 574px) {
+nav {
+  left: 15%;
+ }
+ .title {
+   width: 30%;
+   left: 35%;
+ }
+ .logo {
+   width: 30%;
+   left: 35%;
+ }
+ .socials {
+   width: 10%;
+ }
+ footer {
+   padding-bottom: 5px;
+ }
+ .hero {
+   
+ }
 }
