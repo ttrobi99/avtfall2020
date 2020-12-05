@@ -44,11 +44,12 @@ nav {
   padding-bottom: 10px;
 }
 .title p {
-  margin: 0;
   font-family: monotalic, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 20pt;
+  font-size: 30pt;
+  margin-left: -100%;
+  margin-bottom: 10px;
 }
 .hero {
   background: url(../images/picture14.jpg) no-repeat center center;
@@ -84,6 +85,11 @@ nav {
 h1 {
   margin: 0;
   text-align: center;
+  font-size: 25pt;
+}
+h2 {
+  color: #29B7A5;
+  margin-left: -15px;
 }
 p {
   margin-top: 20px;
@@ -142,6 +148,18 @@ p.subhead {
 .email p {
   font-size: 18px;
 }
+.newsletter {
+  text-align: center;
+  color: #29B7A5;
+  margin-top: -120px;
+  margin-bottom: 70px;
+}
+.newsletter p {
+  font-size: 18px;
+}
+.nowrap {
+  white-space: nowrap ;
+}
 @media screen and (max-width: 574px) {
 nav {
   left: 18%;
@@ -152,6 +170,7 @@ nav {
  }
  .title p {
    font-size: 15pt;
+   margin-left: -60%;
  }
  .logo {
    width: 25%;
@@ -159,7 +178,7 @@ nav {
  }
  .socials {
    width: 15%;
-   left: 66%;
+   left: 63%;
  }
  footer {
    padding-bottom: 5px;
@@ -183,6 +202,9 @@ nav {
  }
  h1 {
    font-size: 20pt;
+ }
+ h2 {
+   margin-left: -35px;
  }
  .overline {
    margin-top: -40px;
